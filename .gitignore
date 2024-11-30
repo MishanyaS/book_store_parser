@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+books.db
+books.xlsx
+/venv/
+
+# General
+.vscode/
+/photos/
+commands.txt
+requairements.txt
