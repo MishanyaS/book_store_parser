@@ -1,5 +1,5 @@
 # Books parser
-This code intended to parse quotes from [**Books to Scrape**](https://books.toscrape.com/index.html) multi-page site.
+This code intended to parse books from [**Books to Scrape**](https://books.toscrape.com/index.html) multi-page site.
 
 **Books to Scrape site:**
 ![](https://github.com/MishanyaS/book_store_parser/blob/main/photos/5.png?raw=true)
