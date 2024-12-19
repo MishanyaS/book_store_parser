@@ -2,6 +2,7 @@
 __pycache__/
 books.db
 books.xlsx
+books.csv
 /venv/
 
 # General

@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 import xlsxwriter
 import sqlite3
+import csv
 
 headers = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36", "Accept-Language": "en-US,en;q=0.9" }
 
@@ -79,3 +80,12 @@ def write_to_db(param):
     print("Data about books successfully written to DB books.db")
 
     connection.close()
+
+def write_to_csv():
+    file_name = 'books.csv'
+    with open(file_name, mode='w', newline='', encoding='utf-8') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(['Name', 'Price', 'Image'])
+        
+        rows = list(get_books_data())
+        writer.writerows(rows)
