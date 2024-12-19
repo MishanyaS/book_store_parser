@@ -24,3 +24,7 @@ ___
 **Data saved to db file:**
 ![](https://github.com/MishanyaS/book_store_parser/blob/main/photos/4.png?raw=true)
 
+___
+
+**Data saved to csv file:**
+![](https://github.com/MishanyaS/book_store_parser/blob/main/photos/6.png?raw=true)
